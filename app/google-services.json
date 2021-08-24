@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "61815629891",
+    "project_id": "white-label-app-ed9d5",
+    "storage_bucket": "white-label-app-ed9d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61815629891:android:ee8d1de780bdd9acf1ccf6",
+        "android_client_info": {
+          "package_name": "br.com.cvargas.whitelabel.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYere3l1d_XLDPd1QEtQo_EzbGFs2YdVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61815629891:android:3aa59aa226249b7df1ccf6",
+        "android_client_info": {
+          "package_name": "br.com.cvargas.whitelabel.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYere3l1d_XLDPd1QEtQo_EzbGFs2YdVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61815629891:android:3c7b0fe48d348c72f1ccf6",
+        "android_client_info": {
+          "package_name": "br.com.cvargas.whitelabel.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYere3l1d_XLDPd1QEtQo_EzbGFs2YdVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61815629891:android:42bec1d5613c61d8f1ccf6",
+        "android_client_info": {
+          "package_name": "br.com.cvargas.whitelabel.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYere3l1d_XLDPd1QEtQo_EzbGFs2YdVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61815629891-o2ovvhvac8dto2r2ccugponhsc493lpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

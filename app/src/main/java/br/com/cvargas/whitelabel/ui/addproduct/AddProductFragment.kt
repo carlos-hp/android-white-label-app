@@ -42,7 +42,7 @@ class AddProductFragment : BottomSheetDialogFragment() {
 
         observeVMEvents()
 
-        setListener()
+        setListeners()
     }
 
     private fun observeVMEvents(){
@@ -53,7 +53,7 @@ class AddProductFragment : BottomSheetDialogFragment() {
             binding.inputLayoutDescription.setError(stringResId)
         }
         viewModel.priceFieldErrorResId.observe(viewLifecycleOwner){ stringResId ->
-            binding.inputLayoutDescription.setError(stringResId)
+            binding.inputLayoutPrice.setError(stringResId)
         }
     }
 
@@ -63,21 +63,24 @@ class AddProductFragment : BottomSheetDialogFragment() {
         }else null
     }
 
-    private fun setListener() {
+    private fun setListeners() {
         binding.imageProduct.setOnClickListener {
-            choseImage()
+            chooseImage()
         }
+
         binding.buttonAddProduct.setOnClickListener {
             val description = binding.inputDescription.text.toString()
             val price = binding.inputPrice.text.toString()
+
             viewModel.createProduct(description, price, imageUri)
         }
+
         binding.inputPrice.run {
             addTextChangedListener(CurrencyTextWatcher(this))
         }
     }
 
-    private fun choseImage() {
+    private fun chooseImage() {
         getContent.launch("image/*")
     }
 }

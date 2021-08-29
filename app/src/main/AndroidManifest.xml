@@ -3,15 +3,14 @@
     package="br.com.cvargas.whitelabel">
 
     <application
-        android:allowBackup="false"
-        android:name="MyApplication"
+        android:name=".MyApplication"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="${appName}${appNameSuffix}"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhiteLabel">
-        <activity android:name="br.com.cvargas.whitelabel.ui.MainActivity"
-            android:exported="true">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,3 +20,5 @@
     </application>
 
 </manifest>
+
+
